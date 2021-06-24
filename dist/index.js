@@ -49,6 +49,7 @@ function run() {
                 case 'lithium':
                 case 'hydrogen':
                 case 'helium':
+                case 'thunder':
                     s3Bucket = 'orthofi-production-lambdas';
                     break;
                 default:
